@@ -1,13 +1,67 @@
+body{
+    margin: 0px;
+}
+main{
+    margin: left 20px;
+    margin: right 20px;
+}
+
 h1{
-    color: rgb(245, 239, 239);
-    background-color: blue;
-    border: solid rgb(245, 149, 24);
+    color: rgb(6, 131, 131);
+    background-color: rgb(240, 240, 247);
+    border: solid rgb(15, 12, 7);
 
 }
 img{
-    border: solid red;
+    border: solid rgb(252, 245, 245);
 }
 h3{
-    color: blue;
+    color: rgb(221, 221, 228);
     border: solid;
 }
+body{
+    background-color: rgb(43, 158, 158);
+}
+table{
+    color: rgb(2, 2, 17);
+    background-color: white;
+
+}
+img{
+    display: inline-block;
+}
+
+div{
+    text-transform: capitalize;
+   
+}
+legend{
+    font-size: 30px;
+    
+}
+    .navbar ul{
+        list-style-type: none;
+        background-color: rgb(206, 197, 185);
+         padding: 0px;
+         margin: 12px;
+         overflow: hidden;
+         text-align: right;
+         text-decoration: center;
+    }
+    .navbar a{
+          color:rgb(8, 3, 26);
+          text-decoration: none;
+          padding: 15px;
+          display: block;
+          text-align: center;
+          margin: 0px;
+          padding: 25px 20px;
+          text-align: center;
+    }
+    .navbar a:hover{
+        background-color: rgb(11, 218, 233);
+
+    }
+    .navbar li{
+        float: left;
+    }
